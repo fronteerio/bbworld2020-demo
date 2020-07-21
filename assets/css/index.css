@@ -1,0 +1,146 @@
+
+/* Home hero */
+
+#home-hero{
+    background: url('../img/bgPanel-header.png') center bottom no-repeat;
+    background-size: 126%;
+    margin-top: 124px;
+    padding: 0;
+}
+
+#home-hero #logo {
+    margin-bottom: 40px;
+    max-width: 100%;
+}
+
+#home-hero #logo img {
+    max-width: 50%;
+}
+
+#home-hero .hero-image {
+    margin-top: 64px;
+}
+
+#home-hero .hero-image img {
+    max-width: 50%;
+}
+
+#home-hero h2 {
+    margin-top: 50px;
+}
+
+#ally-for-web .hero-image {
+    margin-bottom: 64px;
+}
+
+#ally-for-web .hero-image img {
+    margin-left: -180px;
+    width: 100%;
+}
+
+/* Integrations */
+
+section#integrations {
+    margin-bottom: 64px;
+}
+
+.integrations-logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.integrations-logos div {
+    margin: 10px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.integrations-logos img {
+    width: 75%;
+}
+
+.integrations-logos img.d2l {
+    min-width: 200px;
+}
+
+/* Awards */
+
+#awards {
+    background-color: #EAECEC;
+}
+
+#awards ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 64px;
+}
+
+#awards ul li {
+    align-self: baseline;
+    padding: 24px;
+}
+
+#awards img {
+    margin-bottom: 16px;
+    max-width: 125px;
+}
+
+#awards p {
+    max-width: 200px;
+}
+
+/* Media queries */
+
+@media (max-width: 480px) {
+    #home-hero h2 {
+        margin-top: 70px;
+    }
+    #home-hero .hero-image img {
+        min-width: 80%;
+    }
+    #home-hero p {
+        font-size: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    #ally-for-web .hero-image img {
+        margin-left: 0;
+    }
+    .features {
+        padding: 64px 32px;
+    }
+}
+@media (max-width: 480px) {
+    .integrations-logos div {
+        margin: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    #integrations ul li {
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #ally-for-web .hero-image img {
+        margin-left: -80px;
+    }
+}
+
+@media (min-width: 990px) {
+    #ally-for-web .hero-image img {
+        margin-left: -116px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #ally-for-web .hero-image img {
+        margin-left: -180px;
+    }
+}
+
+
